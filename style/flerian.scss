@@ -1,0 +1,109 @@
+//pagina de login
+
+
+//variables
+$button-color: #5DA642;
+$primary: #66b549;
+$secondary: #017065;
+
+
+//elementos comunes
+.kobo-button {
+  background-color: $button-color !important;
+}
+.k-drawer__link:hover {
+  color: $primary !important;
+}
+.k-drawer__link.active {
+  color: $primary !important;
+}
+.k-icon {
+  color: $secondary !important;
+}
+.form-sidebar__label {
+  color: $secondary !important;
+}
+.k-button {
+  background-color: $button-color !important;
+}
+.checkbox__input:checked {
+  color: #fff;
+  border-color: $button-color !important;
+  background-color: $button-color !important;
+}
+
+
+//pagina de registro
+.registration__bg {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  background: linear-gradient(to bottom, #66b549, #41a559, #1d9463, #008267, #017065) !important;
+
+  .registration--login {
+    border-radius: 30px !important;
+    font-size: 16px !important;
+    background: rgba(01, 112, 101, 0.7) !important;
+  }
+
+  .registration__credit {
+    display: none !important;
+  }
+  .flerian-a {
+    font-family: "Roboto", sans-serif !important;
+    position: absolute !important;
+    bottom: 5px !important;
+    right: 5px !important;
+    font-size: 11px !important;
+  }
+  .registration--logo {
+    height: 30px;
+    background-image: url("../img/log.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    width: 250px !important;
+    height: 100px !important;
+    img {
+      display: none !important;
+    }
+  }
+  .registration--register {
+    border-radius: 30px !important;
+    font-size: 16px !important;
+    background: rgba(01, 112, 101, 0.7) !important;
+  }
+}
+
+
+//header de pagina principal
+.mdl-layout__header-row {
+  background-color: $secondary !important;
+  .header__logo {
+    background-image: url("../img/log.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+  .k-icon-menu {
+    color: white !important;
+  }
+}
+
+//header de ventanas modal
+.modal__header {
+  background-color: $button-color !important;
+}
+
+//ventana de formulario
+.form-builder {
+  .left-tooltip {
+    background-color: $primary !important;
+    i {
+      color: white !important;
+    }
+  }
+  .form-builder-header__button {
+    background-color: $button-color !important;
+  }
+}
