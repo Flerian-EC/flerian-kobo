@@ -2,14 +2,21 @@
 
 
 //variables
-$button-color: #049EDB;
-$primary: #05AFF2;
-$secondary: #38809D;
+$primary: #07B0F2;
+$secondary: #04668C;
+$button-color: #079FDB;
 
 
 //elementos comunes
 .kobo-button {
   background-color: $button-color !important;
+  color: white !important;
+  i {
+    color: white !important;
+  }
+  label {
+    color: white !important;
+  }
 }
 .k-drawer__link:hover {
   color: $primary !important;
@@ -18,7 +25,7 @@ $secondary: #38809D;
   color: $primary !important;
 }
 .k-icon {
-  color: $secondary !important;
+  color: white !important;
 }
 .form-sidebar__label {
   color: $secondary !important;
@@ -38,12 +45,13 @@ $secondary: #38809D;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
-  background-image: linear-gradient(to bottom, #05aff2, #00c4f7, #00d7e8, #00e6c7, #05f299);
+  background-image: linear-gradient(to left bottom, #07b0f2, #049dd8, #038abe, #0378a4, #04668c) !important;
 
   .registration--login {
     border-radius: 30px !important;
     font-size: 16px !important;
     background: rgba($secondary, 0.7) !important;
+    box-shadow: -4px 4px 10px -1px rgba(0,0,0,0.5) !important;
   }
 
   .registration__credit {
@@ -58,7 +66,7 @@ $secondary: #38809D;
   }
   .registration--logo {
     height: 30px;
-    background-image: url("../img/log.png") !important;
+    background-image: url("../img/data-umsa.png") !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
@@ -80,7 +88,8 @@ $secondary: #38809D;
 .mdl-layout__header-row {
   background-color: $secondary !important;
   .header__logo {
-    background-image: url("../img/log.png") !important;
+    height: 60px;
+    background-image: url("../img/data-umsa.png") !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
