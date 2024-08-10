@@ -2,9 +2,9 @@
 
 
 //variables
-$button-color: #5DA642;
-$primary: #66b549;
-$secondary: #017065;
+$button-color: #049EDB;
+$primary: #05AFF2;
+$secondary: #38809D;
 
 
 //elementos comunes
@@ -38,12 +38,12 @@ $secondary: #017065;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
-  background: linear-gradient(to bottom, #66b549, #41a559, #1d9463, #008267, #017065) !important;
+  background-image: linear-gradient(to bottom, #05aff2, #00c4f7, #00d7e8, #00e6c7, #05f299);
 
   .registration--login {
     border-radius: 30px !important;
     font-size: 16px !important;
-    background: rgba(01, 112, 101, 0.7) !important;
+    background: rgba($secondary, 0.7) !important;
   }
 
   .registration__credit {
