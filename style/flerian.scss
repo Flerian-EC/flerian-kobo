@@ -57,21 +57,18 @@ $button-color: #079FDB;
   .registration__credit {
     display: none !important;
   }
-  .flerian-a {
-    font-family: "Roboto", sans-serif !important;
-    position: absolute !important;
-    bottom: 5px !important;
-    right: 5px !important;
-    font-size: 11px !important;
-  }
   .registration--logo {
     height: 30px;
-    background-image: url("../img/data-umsa.png") !important;
+    background-image: url("../img/logo-vertical.svg") !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
     width: 250px !important;
     height: 100px !important;
+    animation-name: parpadeo !important;
+    animation-iteration-count: infinite !important;
+    animation-duration: 5s !important;
+
     img {
       display: none !important;
     }
@@ -79,7 +76,34 @@ $button-color: #079FDB;
   .registration--register {
     border-radius: 30px !important;
     font-size: 16px !important;
-    background: rgba(01, 112, 101, 0.7) !important;
+    background: rgba($secondary, 0.7) !important;
+  }
+  .flerian-a {
+    display: block !important;
+    width: 150px !important;
+    height: fit-content !important;
+    position: absolute !important;
+    bottom: 5px !important;
+    right: 5px !important;
+    font-family: "Roboto", sans-serif !important;
+    div {
+      width: 130px !important;
+      height: 130px !important;
+      margin: 0 auto !important;
+      background-image: url("../img/logoIest.png") !important;
+      background-repeat: no-repeat !important;
+      background-size: contain !important;
+      background-position: center !important;
+    }
+    p {
+      display: block !important;
+      width: 100% !important;
+      margin-top: 0 !important;
+      color: white !important;
+      font-family: "Roboto", sans-serif !important;
+      font-size: 15px !important;
+      text-align: center !important;
+    }
   }
 }
 
@@ -89,7 +113,7 @@ $button-color: #079FDB;
   background-color: $secondary !important;
   .header__logo {
     height: 60px;
-    background-image: url("../img/data-umsa.png") !important;
+    background-image: url("../img/logo-horizontal.svg") !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
@@ -116,3 +140,7 @@ $button-color: #079FDB;
     background-color: $button-color !important;
   }
 }
+
+
+//animaciones:
+@import "./animation.scss";

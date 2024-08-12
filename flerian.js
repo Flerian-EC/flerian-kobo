@@ -25,12 +25,13 @@ function addLinkToRegistrationBg() {
 
     const link = document.createElement('a');
 
-
-    link.href = '#'; 
-    link.textContent = 'Centro De Estudiantes Estadistica';
+    link.href = '#';
     link.className = 'flerian-a';
-    link.style.color = 'white';
 
+    link.innerHTML = `
+      <div></div>
+      <p>Centro de Estudiantes Estadística</p>
+    `
 
     registrationBg.appendChild(link);
 
