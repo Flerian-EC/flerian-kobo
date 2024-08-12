@@ -32,6 +32,12 @@ $button-color: #079FDB;
 }
 .k-button {
   background-color: $button-color !important;
+  i {
+    color: white !important;
+  }
+  label {
+    color: white !important;
+  }
 }
 .checkbox__input:checked {
   color: #fff;
